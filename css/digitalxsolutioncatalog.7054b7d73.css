@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 01 2022 08:19:27 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 01 2022 08:23:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -213,6 +213,11 @@ blockquote {
 
 .c-section.glance {
   padding-top: 250px;
+  background-color: #232e3d;
+}
+
+.c-section.glance-bot {
+  padding-top: 100px;
   background-color: #232e3d;
 }
 
@@ -1974,6 +1979,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  margin-top: auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2068,6 +2074,8 @@ blockquote {
 }
 
 .c-card-image_wrapper.margin {
+  overflow: hidden;
+  max-height: 300px;
   margin: -24px -24px 24px;
 }
 
@@ -2107,10 +2115,10 @@ blockquote {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -3317,13 +3325,14 @@ blockquote {
 .c-cms-list.cate {
   display: -ms-grid;
   display: grid;
+  grid-auto-flow: row;
   grid-auto-columns: 1fr;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .flex-wrapper {
@@ -3458,6 +3467,11 @@ blockquote {
     grid-column-gap: 64px;
     grid-row-gap: 64px;
     text-align: center;
+  }
+
+  .c-wrapper.section.flip {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
   }
 
   .c-text {
@@ -3682,6 +3696,14 @@ blockquote {
     margin-left: 0px;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
+  }
+
+  .c-wrapper.section.flip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .c-text.paragraph {
@@ -3913,6 +3935,14 @@ blockquote {
 
   .modal-close_btn {
     font-size: 1.8rem;
+  }
+
+  .c-content-left {
+    width: auto;
+  }
+
+  .c-content-right {
+    width: auto;
   }
 }
 
