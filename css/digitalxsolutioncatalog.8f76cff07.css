@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 01 2022 08:26:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Sep 04 2022 14:34:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -460,6 +460,19 @@ blockquote {
   background-color: #ffbcb7;
   background-image: url("../images/630478c456d6a9bf4003ea10_dislike-red-icon.svg");
   color: #ee402d;
+}
+
+.c-button.filter {
+  display: inline-block;
+  padding: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4f95dd;
+  background-color: transparent;
+  color: #006eb5;
+  font-size: 10px;
+  line-height: 100%;
+  white-space: nowrap;
 }
 
 .c-spacing {
@@ -1009,11 +1022,27 @@ blockquote {
 }
 
 .c-wrapper.cat-overview {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .c-text {
@@ -3332,6 +3361,13 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.cat-filter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 140px;
+  width: 30%;
 }
 
 .flex-wrapper {
