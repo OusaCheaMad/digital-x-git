@@ -1,4 +1,4 @@
-/* Generated on: Tue Sep 06 2022 08:09:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 06 2022 08:13:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -298,6 +298,10 @@ blockquote {
 
 .c-section.glance-bot {
   padding-top: 100px;
+  background-color: #232e3d;
+}
+
+.c-section.about {
   background-color: #232e3d;
 }
 
@@ -1120,6 +1124,24 @@ blockquote {
   grid-template-rows: auto;
 }
 
+.c-wrapper.about {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  color: #fafafa;
+}
+
 .c-text {
   padding: 0px;
   font-size: 14px;
@@ -1293,6 +1315,10 @@ blockquote {
 
 .c-text.h2.atom {
   margin-bottom: 50px;
+}
+
+.c-text.h2.no-wrap {
+  white-space: nowrap;
 }
 
 .c-text.nav {
