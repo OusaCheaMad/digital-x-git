@@ -1,4 +1,4 @@
-/* Generated on: Tue Sep 06 2022 07:43:10 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 06 2022 08:06:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -552,21 +552,19 @@ blockquote {
 
 .c-button.filter {
   display: inline-block;
-  margin-bottom: 16px;
-  padding: 8px 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #4f95dd;
+  width: 100%;
+  padding: 16px 15px;
+  border-top: 1px solid #d4d6d8;
   background-color: transparent;
-  color: #006eb5;
+  color: #232e3d;
   font-size: 14px;
   line-height: 100%;
+  font-weight: 600;
   white-space: nowrap;
 }
 
 .c-button.filter.w--current {
-  background-color: #006eb5;
-  color: #fafafa;
+  color: #d12800;
 }
 
 .c-spacing {
@@ -1247,6 +1245,12 @@ blockquote {
 .c-text.paragraph.small.w--current {
   color: #006eb5;
   font-weight: 700;
+}
+
+.c-text.paragraph.act-filter {
+  color: #55606e;
+  font-size: 12px;
+  line-height: 125%;
 }
 
 .c-text.h1 {
@@ -3407,7 +3411,16 @@ blockquote {
   position: -webkit-sticky;
   position: sticky;
   top: 140px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-wrapper {
@@ -3448,7 +3461,70 @@ blockquote {
 }
 
 .filter-wrapper {
-  margin-bottom: 99px;
+  margin-bottom: 24px;
+}
+
+.dropdown-toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dropdown-toggle.w--open {
+  border-bottom-width: 0px;
+}
+
+.dropdown-btn {
+  width: 100%;
+}
+
+.dropdown-icon {
+  position: static;
+  margin: 0px 0px 0px 10px;
+  color: #d12800;
+  font-size: 18px;
+}
+
+.dropdown-list-btn.w--open {
+  padding-right: 16px;
+  padding-left: 16px;
+  border-style: solid;
+  border-width: 0px 2px 2px;
+  border-color: #000;
+  background-color: #fff;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
 }
 
 @media screen and (max-width: 991px) {
