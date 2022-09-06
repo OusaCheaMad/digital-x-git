@@ -1,4 +1,4 @@
-/* Generated on: Tue Sep 06 2022 07:40:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Sep 06 2022 07:43:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1455,6 +1455,12 @@ blockquote {
 .c-text.nav-logo.small {
   color: #55606e;
   font-size: 12px;
+  line-height: 125%;
+}
+
+.c-text.number {
+  font-family: 'Sohnebreit dreiviertelfett', sans-serif;
+  font-size: 55px;
   line-height: 125%;
 }
 
@@ -3299,6 +3305,18 @@ blockquote {
   grid-template-rows: auto;
 }
 
+._4-link-wrapper.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 .c-video {
   height: 100vh;
 }
@@ -3689,6 +3707,13 @@ blockquote {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  ._4-link-wrapper.grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   ._3-link-wrapper {
@@ -4155,6 +4180,14 @@ blockquote {
 
   .c-host-logo._9 {
     height: 75%;
+  }
+
+  ._4-link-wrapper.grid {
+    grid-auto-flow: row;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
