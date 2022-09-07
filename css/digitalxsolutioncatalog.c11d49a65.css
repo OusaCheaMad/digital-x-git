@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 04:23:34 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 07 2022 04:29:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2206,6 +2206,9 @@ blockquote {
   position: relative;
   z-index: 1;
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .c-card_image.no-color {
@@ -3687,6 +3690,11 @@ blockquote {
     grid-row-gap: 40px;
   }
 
+  .c-wrapper.cat-overview {
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+  }
+
   .c-text {
     padding: 0px;
   }
@@ -3833,6 +3841,19 @@ blockquote {
   .glance-items {
     width: auto;
   }
+
+  .c-cms-wrapper.cate {
+    width: auto;
+  }
+
+  .cat-filter {
+    width: auto;
+  }
+
+  .c-cms-list-catalog {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3901,6 +3922,14 @@ blockquote {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+  }
+
+  .c-wrapper.cat-overview {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .c-text.paragraph {
@@ -4132,6 +4161,15 @@ blockquote {
   .c-content-right {
     width: auto;
   }
+
+  .c-cms-wrapper.cate {
+    width: auto;
+  }
+
+  .cat-filter {
+    position: static;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4294,6 +4332,11 @@ blockquote {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+
+  .c-cms-list-catalog {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
