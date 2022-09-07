@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 07:43:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 07 2022 08:32:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1574,6 +1574,17 @@ blockquote {
   flex: 0 auto;
 }
 
+.footer-logo-link.jp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .footer-image {
   width: 100%;
   height: 100%;
@@ -1581,6 +1592,11 @@ blockquote {
   object-fit: contain;
   -o-object-position: 0% 50%;
   object-position: 0% 50%;
+}
+
+.footer-image.jp {
+  width: 50%;
+  height: 50%;
 }
 
 .footer-heading {
@@ -2831,10 +2847,10 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4162,6 +4178,13 @@ blockquote {
     display: none;
   }
 
+  .footer-logo-link.jp {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .footer-image {
     -o-object-fit: contain;
     object-fit: contain;
@@ -4173,10 +4196,12 @@ blockquote {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
   }
 
   .c-footer-col_wrapper.grid {
@@ -4389,6 +4414,11 @@ blockquote {
 
   .footer-logo-link {
     height: 100px;
+  }
+
+  .footer-image.jp {
+    width: auto;
+    height: auto;
   }
 
   .footer-heading.mobile {
