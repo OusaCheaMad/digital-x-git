@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 08:32:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 07 2022 08:37:34 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -255,8 +255,8 @@ blockquote {
 
 .c-section.hero {
   overflow: hidden;
-  padding-top: 300px;
-  padding-bottom: 250px;
+  padding-top: 400px;
+  padding-bottom: 350px;
   background-image: url("../images/63047a8d608eab3f98b5597d_hero-image.jpg");
   background-position: 50% 50%;
   background-size: cover;
@@ -1317,7 +1317,7 @@ blockquote {
 
 .c-text.h1.hero {
   margin-bottom: 40px;
-  font-size: 55px;
+  font-size: 74px;
   line-height: 125%;
   text-transform: uppercase;
 }
@@ -3325,10 +3325,6 @@ blockquote {
   align-items: center;
 }
 
-.c-hero-content {
-  width: 60%;
-}
-
 .faq-p {
   overflow: hidden;
   margin-bottom: 10px;
@@ -3373,10 +3369,8 @@ blockquote {
 }
 
 ._4-link-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   grid-column-gap: 24px;
@@ -3973,6 +3967,10 @@ blockquote {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   ._4-link-wrapper.grid {
@@ -4349,6 +4347,15 @@ blockquote {
   }
 
   .c-container.stat {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -4510,6 +4517,14 @@ blockquote {
 
   .c-host-logo._9 {
     height: 75%;
+  }
+
+  ._4-link-wrapper {
+    grid-auto-flow: row;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   ._4-link-wrapper.grid {
