@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 06:57:08 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 07 2022 07:11:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -305,6 +305,16 @@ blockquote {
   background-color: #232e3d;
 }
 
+.c-section.thematic {
+  padding-bottom: 300px;
+}
+
+.c-section.stat {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #232e3d;
+}
+
 .c-container {
   width: 100%;
   max-width: 1140px;
@@ -417,6 +427,14 @@ blockquote {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c-container.stat {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: none;
 }
 
 .c-button {
@@ -1151,6 +1169,8 @@ blockquote {
 }
 
 .c-text.paragraph {
+  position: relative;
+  z-index: 2;
   margin-bottom: 0px;
   font-size: 20px;
   line-height: 27.5px;
@@ -3583,6 +3603,66 @@ blockquote {
   justify-content: space-between;
 }
 
+.stat-item {
+  position: relative;
+  padding: 250px 64px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  color: #fafafa;
+}
+
+.stat-item:hover {
+  background-color: #ffeb00;
+  color: #232e3d;
+}
+
+.stat-number {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 32px;
+  font-family: 'Sohnebreit fett', sans-serif;
+  font-size: 74px;
+  line-height: 125%;
+}
+
+.image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.stat-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffeb00), to(transparent)), url("../images/6306f5c7fdf3b4752209d379_SyrianRefugeeWomenGreece1400px.jpeg");
+  background-image: linear-gradient(0deg, #ffeb00, transparent), url("../images/6306f5c7fdf3b4752209d379_SyrianRefugeeWomenGreece1400px.jpeg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  opacity: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.stat-image:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 991px) {
   .c-section.hero {
     padding-top: 200px;
@@ -3618,6 +3698,20 @@ blockquote {
 
   .c-container.template {
     height: auto;
+  }
+
+  .c-container.stat {
+    display: -ms-grid;
+    display: grid;
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .c-button.secondary {
@@ -3716,6 +3810,18 @@ blockquote {
   .c-wrapper.cat-overview {
     grid-column-gap: 28px;
     grid-row-gap: 28px;
+  }
+
+  .c-wrapper.about {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .c-text {
@@ -3876,6 +3982,11 @@ blockquote {
   .c-cms-list-catalog {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .stat-item {
+    padding-top: 76px;
+    padding-bottom: 76px;
   }
 }
 
@@ -4193,12 +4304,23 @@ blockquote {
     position: static;
     width: auto;
   }
+
+  .stat-item {
+    padding: 48px;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .c-container {
     padding-right: 16px;
     padding-left: 16px;
+  }
+
+  .c-container.stat {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .c-nav_menu {
@@ -4235,6 +4357,10 @@ blockquote {
   .c-text.h1.hero {
     margin-bottom: 24px;
     font-size: 28px;
+  }
+
+  .c-text.h2.no-wrap {
+    white-space: normal;
   }
 
   .c-text.h3.blue-card {
