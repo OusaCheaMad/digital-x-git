@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 04:09:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 04:10:54 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1338,7 +1338,7 @@ blockquote {
 }
 
 .c-text.h1.hero {
-  margin-bottom: 40px;
+  margin-bottom: 18px;
   font-size: 74px;
   line-height: 125%;
   text-transform: uppercase;
@@ -3424,6 +3424,9 @@ blockquote {
 }
 
 .c-content-right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 124px;
   width: 50%;
   max-height: 500px;
   -o-object-fit: cover;
