@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 09:33:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 02:53:31 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -254,14 +254,22 @@ blockquote {
 }
 
 .c-section.hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
+  height: 100vh;
   padding-top: 400px;
   padding-bottom: 350px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 110, 181, 0.5)), color-stop(50%, rgba(209, 40, 0, 0.5)), to(rgba(255, 235, 0, 0.5))), url("../images/63185c7568327f694cb344b3_UNDP-Georgia-2017-gender_Tech__20190214%20%281%29.jpg");
-  background-image: linear-gradient(90deg, rgba(0, 110, 181, 0.5), rgba(209, 40, 0, 0.5) 50%, rgba(255, 235, 0, 0.5)), url("../images/63185c7568327f694cb344b3_UNDP-Georgia-2017-gender_Tech__20190214%20%281%29.jpg");
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("../images/631958fded8f0f84195d7020_Group%208576.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .c-section.cta {
