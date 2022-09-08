@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 08 2022 02:53:31 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Sep 08 2022 03:09:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3691,6 +3691,21 @@ blockquote {
 
 .stat-image:hover {
   opacity: 0.5;
+}
+
+.stat-image._2 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffeb00), to(transparent)), url("../images/63195ca4f262f6828d453aa2_countries1.jpg");
+  background-image: linear-gradient(0deg, #ffeb00, transparent), url("../images/63195ca4f262f6828d453aa2_countries1.jpg");
+}
+
+.stat-image._3 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffeb00), to(transparent)), url("../images/63195ca44a6ae7be041e6c6b_UN%20experts.jpg");
+  background-image: linear-gradient(0deg, #ffeb00, transparent), url("../images/63195ca44a6ae7be041e6c6b_UN%20experts.jpg");
+}
+
+.stat-image._4 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffeb00), to(transparent)), url("../images/63195ca32068da14fd107aed_Open%20source.jpg");
+  background-image: linear-gradient(0deg, #ffeb00, transparent), url("../images/63195ca32068da14fd107aed_Open%20source.jpg");
 }
 
 @media screen and (max-width: 991px) {
