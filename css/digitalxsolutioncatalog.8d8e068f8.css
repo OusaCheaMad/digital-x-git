@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 06:16:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 05:44:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12,6 +12,86 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-pagination-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.w-pagination-previous {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fafafa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: #ccc;
+  border-right-color: #ccc;
+  border-bottom-color: #ccc;
+  border-left-color: #ccc;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.w-pagination-previous-icon {
+  margin-right: 4px;
+}
+
+.w-pagination-next {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fafafa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: #ccc;
+  border-right-color: #ccc;
+  border-bottom-color: #ccc;
+  border-left-color: #ccc;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.w-pagination-next-icon {
+  margin-left: 4px;
+}
+
 .w-checkbox {
   display: block;
   margin-bottom: 5px;
@@ -240,7 +320,6 @@ blockquote {
 }
 
 .c-section.about {
-  padding-top: 200px;
   background-color: #232e3d;
 }
 
@@ -3764,6 +3843,13 @@ blockquote {
 
   .c-wrapper.catalog {
     width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-column-gap: 64px;
+    grid-row-gap: 64px;
     text-align: center;
   }
 
@@ -3808,10 +3894,6 @@ blockquote {
   .c-text.h1 {
     font-size: 82px;
     line-height: 88.83px;
-  }
-
-  .c-text.h1.hero {
-    font-size: 62px;
   }
 
   .c-text.h2 {
@@ -4024,6 +4106,8 @@ blockquote {
   .c-wrapper.catalog {
     width: 100%;
     margin-left: 0px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
   }
 
   .c-wrapper.template {
@@ -4061,10 +4145,6 @@ blockquote {
   .c-text.h1 {
     font-size: 47px;
     line-height: 50.92px;
-  }
-
-  .c-text.h1.hero {
-    font-size: 48px;
   }
 
   .c-text.h2 {
@@ -4360,7 +4440,7 @@ blockquote {
   }
 
   .c-text.h1.hero {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
     font-size: 28px;
   }
 
