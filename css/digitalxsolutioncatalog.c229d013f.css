@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 03:35:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 03:39:18 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4016,6 +4016,10 @@ blockquote {
 
   .c-host-logo._1 {
     margin-left: 0%;
+  }
+
+  .c-host-logo.cta {
+    height: 60px;
   }
 
   ._4-link-wrapper {
