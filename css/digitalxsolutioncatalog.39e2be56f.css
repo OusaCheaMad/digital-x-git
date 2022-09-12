@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 03:44:57 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 04:07:24 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3390,10 +3390,6 @@ blockquote {
   object-fit: contain;
 }
 
-.c-host-logo._1 {
-  margin-left: 15%;
-}
-
 .c-host-logo.cta {
   height: 75px;
 }
@@ -3673,19 +3669,6 @@ blockquote {
   font-family: 'Sohnebreit fett', sans-serif;
   font-size: 64px;
   line-height: 125%;
-}
-
-.image {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .stat-image {
@@ -4016,10 +3999,6 @@ blockquote {
     justify-items: start;
     -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
-  }
-
-  .c-host-logo._1 {
-    margin-left: 0%;
   }
 
   .c-host-logo.cta {
@@ -4577,10 +4556,6 @@ blockquote {
   }
 
   .c-host-logo._7 {
-    height: 75%;
-  }
-
-  .c-host-logo._9 {
     height: 75%;
   }
 
