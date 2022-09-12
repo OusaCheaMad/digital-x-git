@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 03:39:18 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 03:44:57 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2395,6 +2395,10 @@ blockquote {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #f7f7f7;
+}
+
+.c-card_item.no-hover:hover {
+  background-color: #fafafa;
 }
 
 .dropdown {
