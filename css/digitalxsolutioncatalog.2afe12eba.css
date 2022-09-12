@@ -1,4 +1,4 @@
-/* Generated on: Mon Sep 12 2022 04:09:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Sep 12 2022 04:22:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1538,9 +1538,11 @@ blockquote {
 }
 
 .c-text.nav-logo.small {
+  margin-top: 4px;
   color: #55606e;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 125%;
+  white-space: nowrap;
 }
 
 .c-text.number {
